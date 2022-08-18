@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 
-    int a[5] = {1,2,3,3,4};
+    int a[8] = {2,3,8,1,2,3,3,4};
 
 
     int size = sizeof(a)/sizeof(a[0]);
@@ -12,7 +12,7 @@ int main(){
     }
     cout<<endl;
 
-    set<int> st;
+    unordered_set<int> st;
     for(int i=0; i<size; i++){
             st.insert(a[i]);
     }
